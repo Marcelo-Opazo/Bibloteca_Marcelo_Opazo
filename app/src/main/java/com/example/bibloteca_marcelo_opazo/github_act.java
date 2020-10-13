@@ -68,7 +68,6 @@ public class github_act extends AppCompatActivity  {
                 }else if (L.equals("Despertar")) {
                     txt.setText("El valor del libro Despertar es: " + des);
                 }
-
                 }
 
             @Override
