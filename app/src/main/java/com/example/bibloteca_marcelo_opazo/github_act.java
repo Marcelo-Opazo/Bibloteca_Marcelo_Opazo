@@ -53,8 +53,8 @@ public class github_act extends AppCompatActivity  {
                 String faren = lib.getFarenheith();
                 String revi = lib.getRevival();
                 String alqui = lib.getEl_alquimista();
-                //String pw = lib.getEL_poder();
-                //String des = lib.getDespertar();
+                String pw = lib.getEl_poder();
+                String des = lib.getDespertar();
 
                 if (L.equals("Farenheith")) {
                     txt.setText("El valor de Farenheith es : " + faren);
@@ -63,11 +63,11 @@ public class github_act extends AppCompatActivity  {
                 } else if (L.equals("El Alquimista")) {
                     txt.setText("El valor de El alquimista es: " + alqui);
                 }
-                //else if (L.equals("El Poder")) {
-                //    txt.setText("El valor del libro el Poder es: " + pw);
-                //}else if (L.equals("Despertar")) {
-                //    txt.setText("El valor del libro Despertar es: " + des);
-                //}
+                else if (L.equals("El Poder")) {
+                    txt.setText("El valor del libro el Poder es: " + pw);
+                }else if (L.equals("Despertar")) {
+                    txt.setText("El valor del libro Despertar es: " + des);
+                }
 
                 }
 
